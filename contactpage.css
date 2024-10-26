@@ -1,0 +1,197 @@
+/* General body styling with spooky font and colors */
+body {
+    font-family: 'Spectral SC', serif; /* Use Google Fonts: Spectral SC for a more readable vibe */
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; /* Dark background for spooky theme */
+    color: #eaeaea; /* Light text to contrast with dark background */
+}
+
+/* Header Styling */
+header {
+    background-color: #000000; /* Deep black background */
+    color: #ffa500; /* Orange text color for a Halloween vibe */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Shadow for depth */
+}
+
+header h1 {
+    font-family: 'Creepster', cursive; /* Use Creepster only for the header for spooky effect */
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 4px 4px 6px #000000; /* Text shadow for extra spookiness */
+}
+
+/* Navigation Menu Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif; /* Clean and readable font for navigation */
+    color: #ffa500; /* Orange links */
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #eaeaea; /* Hover changes to light gray */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Section Content Styling */
+section {
+    padding: 40px;
+    text-align: center;
+    background-color: #262626; /* Dark gray background */
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.7);
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+section h2 {
+    font-family: 'Spectral SC', serif; /* Use Spectral SC for headings */
+    font-size: 2.5em;
+    color: #ffa500;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+section p {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for body text */
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #000000;
+    color: #ffa500;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.6);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Book List Styling */
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.book-item {
+    background-color: #333333;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.9);
+}
+
+.book-item h3 {
+    font-family: 'Spectral SC', serif; /* Spectral SC for book titles */
+    color: #ffa500;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 1.5em;
+}
+
+.book-item p {
+    font-family: 'Montserrat', sans-serif; /* Montserrat for book descriptions */
+    color: #eaeaea;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design for Mobile and Tablet */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 10px 0;
+        font-size: 1.2em;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    .book-item {
+        width: 100%; /* Full width on mobile */
+        margin: 10px 0;
+    }
+}
+
+/* Even smaller screens */
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav a {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    section h2 {
+        font-size: 1.8em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    .book-item {
+        width: 100%;
+    }
+}
+
+/* Spooky Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400&family=Montserrat:wght@400&display=swap');
