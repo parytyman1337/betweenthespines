@@ -11,3 +11,7 @@
 
 10/02/2024 Update - Database query has been uploaded "Milestone3security.sql"
 10/02/2024 Update - API has been uploaded to Github
+
+10/27/2024 Update - Files of Website has been exported to Github
+10/27/2024 Text Change - Github repo and Website have the same name now
+10/27/2024 Update - PHP files have been exported to Github
