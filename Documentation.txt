@@ -11,3 +11,7 @@
 
 10/02/2024 Update - Database query has been uploaded "Milestone3security.sql"
 10/02/2024 Update - API has been uploaded to Github
+
+10/27/24 Update - loyal-registration.php has been uploaded
+10/27/24 Update - contact.php has been uploaded
+10/27/24 Update books-for-sale.php has been uploaded
